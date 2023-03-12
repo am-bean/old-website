@@ -32,7 +32,7 @@
   --info: #3498db;
   --warning: #f39c12;
   --danger: #e74c3c;
-  --light: #adb5bd;
+  --light: #bfc2c4;
   --dark: #303030;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -162,7 +162,7 @@ sup {
 }
 
 a {
-  color: #adb5bd;
+  color: bfc2c4;
   text-decoration: none;
   background-color: transparent;
 }
@@ -5602,7 +5602,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #303030;
+  background-color: #303030
   color: #f3f3f3;
   border-radius: 0.3rem;
 }
