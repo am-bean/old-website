@@ -7,7 +7,7 @@ permalink: /
 
 ### Hello!
 
-The field of artificial intelligence is developing at an extraordinary pace, and an ever-increasing number of problems previous solved by humans are becoming the domain of computers. Although moving towards more generalization, these breakthroughs are still largely driven by specialized machine learning in well-constrained tasks. Therefore, in the near future practical applications will rely on humans and AI working together with of their respective advantages. I study complementary behaviour between human and AI partners, with a focus on designing AI training techniques. 
+The field of artificial intelligence is developing at an extraordinary pace, and an ever-increasing number of problems previous solved by humans are becoming the domain of computers. Although moving towards more generalization, these breakthroughs are still largely driven by specialized machine learning in well-constrained tasks. Therefore, I believe near future practical applications will rely on humans and AI working together with their respective advantages. I study complementary behaviour between human and AI partners, with a focus on designing AI training techniques. 
 
 <!---
 <div class="container">
