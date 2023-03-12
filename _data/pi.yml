@@ -1,21 +1,22 @@
-- name: Dr. Richard Feynman
+- name: Andrew Bean
   photo: headshot.jpg
-  info: Richard C. Tolman Professor, California Institute of Technology
-  email: richard@university.edu
-  github: https://github.com/
+  info: DPhil Student in Social Data Science, Oxford Internet Institute
+  email: andrew.bean@oii.ox.ac.uk
+  github: https://github.com/am-bean
   researchgate: https://www.researchgate.net/
   scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
+  orcid: https://orcid.org/0000-0001-8439-5975
   cv: cv/cv.pdf
   # Change the number below to the number of "educations" you have (up to 6)
   number_educ: 2
-  education1: "(1942) Ph.D. Physics, Princeton University"
-  education2: "(1939) B.S. Physics, Massachusetts Institute of Technology"
+  education1: "(2022) MSc Social Data Science, University of Oxford"
+  education2: "(2017) B.S. Applied Mathematics, Yale University"
   # education3: 
   # education4: 
   # education5: 
   # education6: 
-  education1short: (1942) Ph.D. Physics, Princeton
-  education2short: (1939) B.S. Physics, MIT
+  education1short: (2022) MSc Social Data Science, Oxford
+  education2short: (2017) B.S. Applied Mathematics, Yale
   # education3short: 
   # education4short: 
   # education5short: 
