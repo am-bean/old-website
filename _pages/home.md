@@ -5,13 +5,9 @@ sitemap: false
 permalink: /
 ---
 
-### Welcome!
+### Hello!
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
-It also helps us to understand the fundamental principles that govern the behavior of matter and energy, and to explore the limits of our current knowledge.
-Theoretical physics helps us to make progress in a wide range of fields, including cosmology, particle physics, and quantum mechanics, and it has led to many important discoveries and technological innovations.
+The field of artificial intelligence is developing at an extraordinary pace, and an ever-increasing number of problems previous solved by humans are becoming the domain of computers. Although moving towards more generalization, these breakthroughs are still largely driven by specialized machine learning in well-constrained tasks. Therefore, in the near future practical applications will rely on humans and AI working together with of their respective advantages. I study complementary behaviour between human and AI partners, with a focus on designing AI training techniques. 
 
 <div class="container">
 <div class="row">
@@ -26,8 +22,6 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 
 ### About me
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now the California Institute of Technology.
-
+I am a social data scientist working in the field of artificial intelligence.
+I received my undergraduate degree in applied mathematics from Yale University in 2017 and am working towards my DPhil at the University of Oxford.
+My doctoral studies are focused on hybrid intelligence and techniques for creating complementary behaviours between human and AI agents.
