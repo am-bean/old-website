@@ -9,14 +9,14 @@
   cv: cv/cv.pdf
   # Change the number below to the number of "educations" you have (up to 6)
   number_educ: 2
-  education1: "(2022) MSc Social Data Science, University of Oxford"
-  education2: "(2017) B.S. Applied Mathematics, Yale University"
+  education1: "(2022) M.Sc. in Social Data Science, University of Oxford"
+  education2: "(2017) B.S. in Applied Mathematics, Yale University"
   # education3: 
   # education4: 
   # education5: 
   # education6: 
-  education1short: (2022) MSc Social Data Science, Oxford
-  education2short: (2017) B.S. Applied Mathematics, Yale
+  education1short: (2022) M.Sc. in Social Data Science, Oxford
+  education2short: (2017) B.S. in Applied Mathematics, Yale
   # education3short: 
   # education4short: 
   # education5short: 
