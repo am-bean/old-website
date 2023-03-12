@@ -63,9 +63,9 @@
   {% for article in site.data.news limit:3 %}
   <b>{{ article.date }}</b>
     <p>{{ article.headline }}</p>
-    <p>{{ article.url }}</p>
+    <a href={{ article.url }}>Link</a>
   {% endfor %}
   
-  <h5><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h5>
+  <h5><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all updates</a></h5>
 
 </div>
