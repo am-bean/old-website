@@ -7,6 +7,14 @@ permalink: /teaching/
 
 ## Teaching
 
-* Introduction to Physics (1961--63) [Textbook here!](https://www.feynmanlectures.caltech.edu/)
+{% for course in site.data.courses %}
+<div class="jumbotron">
+<h4>{{ course.name }}</h4>
+<p>{{ course.location }} ({{ course.terms }})</p>
+{{ course.description }}
+<p>{% if course.github %} [View on Github]({{course.github}}){% endif %}</p>
+</div>
+{% endfor %}
+
 
 

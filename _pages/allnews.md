@@ -7,12 +7,16 @@ permalink: /allnews.html
 
 ## News
 
-<div class="jumbotron">
+
 {% for article in site.data.news %}
+<div class="jumbotron">
 <b>{{ article.date }}</b>
 
-<h5>{{ article.headline }}<h5>
+<h5>{{ article.headline }}</h5>
 {% if article.body %} {{article.body}} {% endif %}
-{% if article.url %} <a href= {{article.url}} >Link</a> {% endif %}
-{% endfor %}
+{% if article.url %} 
+[Link]({{article.url}}) 
+{% endif %}
 </div>
+{% endfor %}
+
