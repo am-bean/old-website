@@ -1,11 +1,16 @@
+- name: Introduction to Statistics for Political Science
+  terms: Trinity 2023
+  location: Stanford University (Bing Overseas Study Program)
+  description: I wrote the syllabus and taught eight tutorial sessions at the undergraduate level. 
+
 - name: Computational Methods for the Social Sciences
   github: https://github.com/am-bean/computational-methods-in-social-science
-  terms: 2023
+  terms: Hilary 2023
   location: University of Oxford
   description: I helped design and teach a course on accessing and cleaning data for social science applications. 
 
 - name: Applied Analytical Statistics
   github: https://github.com/aezarebski/aas-extended-examples
-  terms: 2022
+  terms: Michaelmas 2022
   location: University of Oxford
   description: I led weekly sessions applying the theoretical course concepts to practical cases using Python. 
