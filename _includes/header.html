@@ -3,7 +3,7 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-light">
     <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
      <img src="{{ site.url }}{{ site.baseurl }}/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
       {{ site.title | escape }}
@@ -15,9 +15,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="collapse navbar-collapse" id="navbarColor02">
         <ul class="navbar-nav mr-auto">
         <ul class="navbar-nav">
-          <li class="nav-item">
-              <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
-          </li> 
           {% for page in site.nav_pages %}
            <li class="nav-item">
             <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a>
@@ -27,14 +24,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/cv/thesis.pdf">MSc Thesis</a>
           </li>
         </ul>
-  </div>
-  <!---
-  <div class="collapse navbar-collapse navbar-right">
-      <ul class="navbar-nav navbar-right">
-      <li><img src="{{ site.url }}{{ site.baseurl }}/images/OII_small_blue_logo.jpg" width="50" height="50" style="margin-right:5px" class="d-inline-block align-top" alt=""></li>
-      <li><img src="{{ site.url }}{{ site.baseurl }}/images/oxford_logo.png" width="50" height="50" style="margin-right:5px" class="d-inline-block align-top" alt=""></li>
+    </div>
+  <div class="collapse navbar-collapse ml-auto">
+        <ul class="navbar-nav ml-auto">
+        {% for member in site.data.pi %}
+        {% if member.cv %} <li><a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x" style="margin-right:5px"></i></a></li> {% endif %}
+        {% if member.scholar %} <li><a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-3x" style="margin-right:5px"></i></a></li> {% endif %}
+        {% if member.github %} <li><a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-3x" style="margin-right:5px"></i></a></li> {% endif %}
+        {% if member.researchgate %} <li><a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x" style="margin-right:5px"></i></a></li> {% endif %}
+        {% endfor %}
       </ul>
   </div>
-  -->
+
+   
 </nav>
 

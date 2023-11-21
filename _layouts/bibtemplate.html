@@ -22,10 +22,10 @@ pre{
 </style>
 
 
-<div class="text-justify">{{reference}}</div>
+<!--<div class="text-justify">{{reference}}</div>-->
 
 <!-- You can use the below to make your name bold -->
-<!-- {{reference | replace_first: 'Bryngelson, S. H.', '<b>Bryngelson, S. H.</b>' | replace_first: 'Bryngelson, S.', '<b>Bryngelson, S.</b>' }}</div> -->
+<div> {{reference | replace_first: 'Bean, Andrew M.', '<b>Bean, Andrew M.</b>' | replace_first: 'Bean, A. M.', '<b>Bean, A. M.</b>' }} </div>
 
 {% assign bibtest = false %}
 {% if entry.file %}
@@ -49,7 +49,7 @@ pre{
 {% endif %}
 {% endif %}
 
-{% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
+{% if entry.type == 'unpublished' or entry.type == 'article' or entry.type == 'misc' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
 <button class="btn btn-danger btm-sm"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
 {% endif %}
 
@@ -58,16 +58,16 @@ pre{
 {% endif %}
 
 {% if entry.abstract %}
-<div id="a{{entry.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<div id="a{{entry.key}}" style="display: none; background-color:#e0e8ed; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>{{ entry.bibtex | remove: "entry.abstract" }}</pre>
 </div>
 {% else %}
-<div id="a{{entry.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<div id="a{{entry.key}}" style="display: none; background-color:#e0e8ed; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>{{ entry.bibtex }}</pre>
 </div>
 {% endif %}
 
-<div id="b{{entry.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<div id="b{{entry.key}}" style="display: none; background-color:#e0e8ed; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>{{entry.abstract}}</pre>
 </div>
 

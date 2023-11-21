@@ -13,7 +13,7 @@ url: ""
 # Footer info
 affiliation: >
     Andrew Bean<br/>
-    DPhil Student in Social Data Science<br/>
+    DPhil Student<br/>
     University of Oxford
 
 location: >
@@ -27,7 +27,7 @@ contact: >
 # Pages shown in navbar
 nav_pages:
   - name: about
-#  - name: publications
+  - name: publications
 #  - name: talks
 #  - name: research
 #  - name: software
@@ -62,14 +62,14 @@ plugins: ['jekyll/scholar']
 
 scholar:
 
-  last_name: Doe
-  first_name: [John]
+  last_name: Bean
+  first_name: [Andrew]
 
   style: citesty
   locale: en
 
   source: /assets/
-  bibliography: ref.bib
+  bibliography: My_Papers.bib
   bibliography_template: bibtemplate
   sort_by: year, month
   order: descending

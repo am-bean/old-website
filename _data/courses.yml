@@ -1,11 +1,32 @@
+- name: Practical Ethics in Artificial Intelligence
+  role: Instructor
+  github:
+  coursepage:
+  terms: 2024
+  location: Stanford University (Bing Overseas Study Program)
+  description: This course presents current ethical issues in the development and application of artificial intelligence through a series of recent case studies. We will spend the first part of the course studying major ethical frameworks (consequentialism, deontology, virtue ethics) and closely-linked research areas within AI and machine learning. In the second part of the course, we will apply these principles to case studies from major areas of debate in AI, with a focus on the translation of ethical principles into practical decisions.
+
+- name: Introduction to Statistics for Political Data Science
+  role: Instructor 
+  github:
+  coursepage:
+  terms: 2023
+  location: Stanford University (Bing Overseas Study Program)
+  description: An introduction of basic statistical concepts in application to the social sciences. There is a strong programming component, using the Python language and statsmodels package. The course begins conceptually with research design and the role of theory in statistical analysis, then introduces mathematical formalisms in probability with the Central Limit Theorem before moving to statistical techniques such as hypothesis testing and linear regression. The culmination of this course is a project in the style of an academic research paper which draws upon the techniques from the class to answer a question of the student's choosing.
+
 - name: Computational Methods for the Social Sciences
+  role: Teaching Assistant
   github: https://github.com/am-bean/computational-methods-in-social-science
+  coursepage: https://www.oii.ox.ac.uk/study/courses/computational-methods-for-the-social-sciences/
   terms: 2023
   location: University of Oxford
-  description: I helped design and teach a course on accessing and cleaning data for social science applications. 
+  description: This course teaches how to collect and wrangle structured and unstructured data from social websites and platforms. In particular, the focus will be on using Python to access data from a diverse variety of sources on the social web (from Twitter to Reddit, from Wikipedia to the front page of the New York Times), and transforming this material into datasets which are amenable to traditional social science analysis. Once the data has been collected, the course familiarizes students with the variety of approaches for processing and preparing data for analysis.
 
 - name: Applied Analytical Statistics
+  role: Teaching Assistant
   github: https://github.com/aezarebski/aas-extended-examples
+  coursepage: https://www.oii.ox.ac.uk/study/courses/applied-analytical-statistics/
   terms: 2022
   location: University of Oxford
-  description: I led weekly sessions applying the theoretical course concepts to practical cases using Python. 
+  description: Applied analytical statistics is a course focusing on the tools and techniques used by social scientists to understand, describe and analyse (quantitative) data. It is an introductory level course, though oriented largely towards those who may have had some previous contact with mathematics or statistics in their undergraduate degrees. The focus will be on learning how to apply practical statistics in a social research context (rather than looking at fundamental mathematical foundations of statistical concepts). During the course, students will make use of the Python programming language, and hence can also expect to build familiarity with the language as they progress through the course, particularly some typical libraries for the analysis and display of data such as Pandas, scikit-learn and matplotlib.
+
